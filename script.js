@@ -15,7 +15,7 @@ function addTodo() {
   const todoText = document.querySelector("#Input").value;
 
   if (todoText == "") {
-    alert("Type First");
+    alert("Add Task ");
   } else {
     const todoObject = {
       id: todoList.length,
