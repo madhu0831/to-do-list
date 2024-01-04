@@ -15,7 +15,7 @@ function addTodo() {
   const todoText = document.querySelector("#Input").value;
 
   if (todoText == "") {
-    alert("Add some todo first");
+    alert("Type First");
   } else {
     const todoObject = {
       id: todoList.length,
@@ -47,7 +47,7 @@ function deleteItem(x) {
 
 function displayTodos() {
   todoListElement.innerHTML = "";
-  document.querySelector("#Input").value = "";
+  document.querySelector("#ttInput").value = "";
 
   todoList.forEach((item) => {
     const listElement = document.createElement("li");
